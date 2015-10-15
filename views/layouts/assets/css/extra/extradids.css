@@ -1,0 +1,57 @@
+td.details-control {
+    //background: url('../../images/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    //background: url('../../images/details_close.png') no-repeat center center;
+}
+.activeDayClass{
+    background: #5F8295;
+    color: #FFFFFF
+}
+.closedDayClass{
+    background: #FFFFFF;
+    color: #D0D3D8;
+    cursor: not-allowed;
+}
+.passedDayClass{
+    background: #FFFFFF;
+    color: #D0D3D8;
+    cursor: not-allowed;
+}
+.currentDayClass{
+    background: #f2682c;
+}
+#googlemaps { 
+  height: 100%; 
+  width: 100%; 
+  position:absolute; 
+  top: 0; 
+  left: 0; 
+  z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
+}     
+#contactform { 
+  position: relative; 
+  z-index: 1; /* The z-index should be higher than Google Maps */
+  width: 100%;
+  margin: 0 0px 0;
+  padding: 0px;
+  background: transparent;
+  height: auto;
+  opacity: 1; /* Set the opacity for a slightly transparent Google Form */ 
+  color: white;
+}
+#description { 
+  position: relative; 
+  z-index: 1; /* The z-index should be higher than Google Maps */
+  width: 100%;
+  margin: 0px 0px 0px;
+  padding: 0px;
+  background: transparent;
+  height: auto;
+  opacity: 1; /* Set the opacity for a slightly transparent Google Form */ 
+  color: white;
+}
+#fullcalendar h2 {
+    font-size: 20px;
+}

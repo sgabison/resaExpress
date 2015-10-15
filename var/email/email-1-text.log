@@ -1,0 +1,3 @@
+Login to pimcore and change your password using the following link. This temporary login link will expire in 30 minutes: 
+
+http://demo.gabison.com/admin/login/login/?username=admin&token=36752b306e306e536a646d454255764f446f45657369686f434f41757a743254&reset=true

@@ -1,0 +1,66 @@
+URL: http://demo.gabison.com/data/person/persons#
+
+Description: 
+
+test
+
+Details: 
+
+PHPRC => /home/stevegabison/fcgi-bin/../etc/php5
+SCRIPT_FILENAME => /home/stevegabison/public_html/index.php
+PATH => /usr/local/bin:/usr/bin:/bin
+PWD => /home/stevegabison/fcgi-bin
+SHLVL => 0
+PHP_FCGI_MAX_REQUESTS => 99999
+SCRIPT_NAME => /index.php
+REQUEST_URI => /admin/admin-button/bug-report?url=http%3A%2F%2Fdemo.gabison.com%2Fdata%2Fperson%2Fpersons%23
+QUERY_STRING => url=http%3A%2F%2Fdemo.gabison.com%2Fdata%2Fperson%2Fpersons%23
+REQUEST_METHOD => POST
+SERVER_PROTOCOL => HTTP/1.1
+GATEWAY_INTERFACE => CGI/1.1
+REDIRECT_URL => /admin/admin-button/bug-report
+REDIRECT_QUERY_STRING => url=http%3A%2F%2Fdemo.gabison.com%2Fdata%2Fperson%2Fpersons%23
+REMOTE_PORT => 52783
+SERVER_ADMIN => [no address given]
+DOCUMENT_ROOT => /home/stevegabison/public_html
+REMOTE_ADDR => 82.226.0.233
+SERVER_PORT => 80
+SERVER_ADDR => 5.135.190.29
+SERVER_NAME => demo.gabison.com
+SERVER_SOFTWARE => Apache/2.2.22 (Debian)
+SERVER_SIGNATURE => <address>Apache/2.2.22 (Debian) Server at demo.gabison.com Port 80</address>
+
+HTTP_COOKIE => PHPSESSID=459snm1nsu6pn218hphdefl904; pimcore_admin_sid=ot4q8n86e6h3n6t7706f2gjg42; _gat=1; _ga=GA1.3.1127030374.1434703824
+HTTP_ACCEPT_LANGUAGE => fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4
+HTTP_ACCEPT_ENCODING => gzip, deflate
+HTTP_REFERER => http://demo.gabison.com/admin/admin-button/bug-report?url=http%3A%2F%2Fdemo.gabison.com%2Fdata%2Fperson%2Fpersons%23
+CONTENT_TYPE => application/x-www-form-urlencoded
+HTTP_USER_AGENT => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+HTTP_ORIGIN => http://demo.gabison.com
+HTTP_ACCEPT => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_CACHE_CONTROL => max-age=0
+CONTENT_LENGTH => 58
+HTTP_CONNECTION => close
+HTTP_HOST => demo.gabison.com
+SCRIPT_URI => http://demo.gabison.com/admin/admin-button/bug-report
+SCRIPT_URL => /admin/admin-button/bug-report
+GEOIP_COUNTRY_NAME => France
+GEOIP_COUNTRY_CODE => FR
+GEOIP_CONTINENT_CODE => EU
+GEOIP_ADDR => 82.226.0.233
+REDIRECT_STATUS => 200
+REDIRECT_SCRIPT_URI => http://demo.gabison.com/admin/admin-button/bug-report
+REDIRECT_SCRIPT_URL => /admin/admin-button/bug-report
+REDIRECT_GEOIP_COUNTRY_NAME => France
+REDIRECT_GEOIP_COUNTRY_CODE => FR
+REDIRECT_GEOIP_CONTINENT_CODE => EU
+REDIRECT_GEOIP_ADDR => 82.226.0.233
+FCGI_ROLE => RESPONDER
+PHP_SELF => /index.php
+REQUEST_TIME_FLOAT => 1434788982.71
+REQUEST_TIME => 1434788982
+TMPDIR => /home/stevegabison/public_html/website/var/cache
+TEMP => /home/stevegabison/public_html/website/var/cache
+TMP => /home/stevegabison/public_html/website/var/cache
+windir => /home/stevegabison/public_html/website/var/cache
+SystemRoot => /home/stevegabison/public_html/website/var/cache
