@@ -5,20 +5,21 @@
     <php_cli/>
     <domain/>
     <redirect_to_maindomain/>
-    <language>fr_FR</language>
-    <validLanguages>en,fr_FR</validLanguages>
+    <language>fr</language>
+    <validLanguages>en,fr_FR,sv</validLanguages>
     <fallbackLanguages>
       <en/>
       <fr_FR/>
+      <sv>en</sv>
     </fallbackLanguages>
-    <defaultLanguage/>
+    <defaultLanguage>fr_FR</defaultLanguage>
     <theme/>
     <contactemail>steve@gabison.com</contactemail>
     <extjs6/>
     <loginscreencustomimage/>
     <disableusagestatistics/>
     <debug>1</debug>
-    <debug_ip>83.202.129.50, 88.120.82.200</debug_ip>
+    <debug_ip>83.202.129.50, 88.120.82.200,90.46.98.85</debug_ip>
     <http_auth>
       <username/>
       <password/>
@@ -40,7 +41,7 @@
       <host>localhost</host>
       <username>stevegabison</username>
       <password>superman</password>
-      <dbname>dbtest</dbname>
+      <dbname>stevegabison</dbname>
       <port>3306</port>
     </params>
   </database>
@@ -129,26 +130,26 @@
   <email>
     <sender>
       <name>Resaexpress.com</name>
-      <email>info@resaexpress.com</email>
+      <email>resaexpress.com@gmail.com</email>
     </sender>
     <return>
       <name>Resaexpress.com</name>
-      <email>info@resaexpress.com</email>
+      <email>resaexpress.com@gmail.com</email>
     </return>
-    <method>sendmail</method>
+    <method>smtp</method>
     <smtp>
-      <host/>
-      <port/>
-      <ssl/>
-      <name/>
+      <host>smtp.gmail.com</host>
+      <port>587</port>
+      <ssl>tls</ssl>
+      <name>smtp.gmail.com</name>
       <auth>
-        <method/>
-        <username/>
-        <password>Diddan-3012</password>
+        <method>login</method>
+        <username>resaexpress.com@gmail.com</username>
+        <password>Mju7Nhyx7779</password>
       </auth>
     </smtp>
     <debug>
-      <emailaddresses>info@resaexpress.com</emailaddresses>
+      <emailaddresses>resaexpress.com@gmail.com</emailaddresses>
     </debug>
     <bounce>
       <type/>

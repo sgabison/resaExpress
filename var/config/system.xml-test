@@ -38,7 +38,7 @@
     <adapter>Mysqli</adapter>
     <params>
       <host>localhost</host>
-      <username>stevegabison</username>
+      <username>root</username>
       <password>superman</password>
       <dbname>dbtest</dbname>
       <port>3306</port>
